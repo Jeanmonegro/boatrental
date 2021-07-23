@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    background-color: black;
+}
+body,h1,h2 {
+    font-family: "Raleway", sans-serif;
+}
+.nav-top{
+    height: 50px;
+    width: 100%;
+    border-width: 1px;
+    background-color: white;
+    border-style: solid;
+    font-size: 25px;
+    top:0;
+    left:0;
+    position: fixed;
+}
+.nav-left{
+    float: left;
+}
+.nav-right{
+    float: right;
+    text-align: center;
+}
+.nav-button{
+    height: 10%;
+    text-decoration: none;
+    background: none;
+    color: black;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+.nav-button:hover{
+    border-color: #f1ff5c;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translatey(-0.25em)
+}
