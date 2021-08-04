@@ -1,41 +1,33 @@
-body, html {
+body{
     height: 100%;
-    line-height: 1.8;
-    background-color: black;
-}
-body,h1,h2 {
-    font-family: "Raleway", sans-serif;
-}
-.nav-top{
-    height: 50px;
     width: 100%;
-    border-width: 1px;
-    background-color: white;
-    border-style: solid;
-    font-size: 25px;
-    top:0;
-    left:0;
-    position: fixed;
 }
-.nav-left{
-    float: left;
-}
-.nav-right{
-    float: right;
+#rowOne {
+    /* background-color: #0bd3d3; */
+    background-image: url("/styles/boatpic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+    height: 100vh;
 }
-.nav-button{
-    height: 10%;
-    text-decoration: none;
-    background: none;
-    color: black;
-    padding: 1em 2em;
-    font-size: 1em;
-    transition: all 0.25s;
+#rowTwo {
+    background-color: #f890e7;
+    text-align: center;
+    height: 100vh;
 }
-.nav-button:hover{
-    border-color: #f1ff5c;
-    color: black;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translatey(-0.25em)
+#rowThree {
+    background-color: #ffffff;
+    text-align: center;
+    height: 100vh;
+}
+ #rowThree {
+    background-color: #d0d0d0;
+    text-align: center;
+    height: 100vh;
+}
+#rowFour {
+    background-color: #000000;
+    text-align: center;
+    height: 100vh;
 }
